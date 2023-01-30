@@ -70,4 +70,29 @@ main > * {
 
 /* media queries */
 
+@media (max-width: 768px) {
+
+  header{
+  flex-direction: column;
+  align-items: flex-start;
+  }
+  h1{ 
+    padding-left: 0.1em;
+  margin-bottom: 10px;
+  }
+
+
+h2{
+  margin-left: 2px;
+}
+
+.airplane-list-container{
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+.airplane-card{
+  width: 100vw;
+}
+}
+
 /* YOUR CODE HERE */
